@@ -1,6 +1,7 @@
 package br.com.alura.conversor.principal;
 
 import br.com.alura.conversor.auxiliares.Auxiliar;
+import br.com.alura.conversor.auxiliares.LogAuxiliar;
 import br.com.alura.conversor.exceptions.OpcaoInvalidaException;
 import br.com.alura.conversor.modelos.Taxa;
 
@@ -42,6 +43,8 @@ public class Principal {
                 valor = leitura.nextDouble();
 
                 conversao = conversor.calcularConversao(codigoBase, codigoDestino, valor);
+
+                LogAuxiliar.addLog(codigoBase, codigoDestino, valor, conversao);
 
                 System.out.format("\u001B[34mValor %.4f [%s] corresponde ao valor final de =>>>> %.4f [%s]\u001B[0m\n", valor, codigoBase, conversao, codigoDestino);
             } catch (OpcaoInvalidaException exception) {
