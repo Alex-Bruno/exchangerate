@@ -1,7 +1,7 @@
 ![Conversor de moedas - Alura Challenge](https://cdn1.gnarususercontent.com.br/6/421189/9d4c9ba6-5b7c-4339-8055-c30d0e57eb99.png)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 # Conversor de moedas - Alura Challenge
 # #challengeonejavabackend
-
 Este projeto é um desafio (challenge) para implementar um conversor de moedas em java utilizando o serviço de API exchangerate.
 
 ## Visão Geral
